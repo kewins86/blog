@@ -14,8 +14,11 @@ export default {
     Logo
   },
   async mounted(){
-      let ret = await this.$http.get('/userinfo')
+  	const token = localStorage.getItem('token')
+    if(token) {
+      let ret = await this.$http.get('/user/info')
       console.log(ret)
+    }
   },
 }
 </script>

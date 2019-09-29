@@ -13,7 +13,7 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_1569133075556_4067';
+  config.keys = appInfo.name + '_1569072062078_7100';
 
   // add your middleware config here
   config.middleware = [];
@@ -31,15 +31,15 @@ module.exports = appInfo => {
         enable:false
       }
     },
-		mongoose:{
-			// 链接地址
-			client:{
-				url: 'mongodb://localhost:27017/newItem',
-				options:{}
-			}
-		},
-		jwt:{
-			secret:'KkbIsGood@123!$'
-		}
+    mongoose:{
+      // 链接地址
+      client:{
+        url: 'mongodb://127.0.0.1:27017/kkbjs12',
+        options:{}
+      }
+    },
+    jwt:{
+      secret:'KkbIsGood@123!$'
+    }
   };
 };

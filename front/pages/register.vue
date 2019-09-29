@@ -16,6 +16,44 @@
         >
         </el-input>
       </el-form-item>
+      <el-form-item prop="password">
+        <span class="svg-container">
+          <i class="el-icon-lock"></i>
+        </span>
+        <el-input
+          ref="password"
+          v-model="form.password"
+          placeholder="密码"
+          name="password"
+          type="password"
+        >
+        </el-input>
+      </el-form-item>
+      <el-form-item prop="repassword">
+        <span class="svg-container">
+          <i class="el-icon-lock"></i>
+        </span>
+        <el-input
+          ref="repassword"
+          v-model="form.repassword"
+          placeholder="再次输入密码"
+          name="repassword"
+          type="password"
+        >
+        </el-input>
+      </el-form-item>
+      <el-form-item prop="nickname">
+        <span class="svg-container">
+          <i class="el-icon-lock"></i>
+        </span>
+        <el-input
+                ref="nickname"
+                v-model="form.nickname"
+                placeholder="昵称"
+                name="nickname"
+        >
+        </el-input>
+      </el-form-item>
       <el-form-item prop="captcha" class="email-code">
         <div class="send-email-btn">
           <img @click="resetCaptcha" :src="code.captcha" alt="验证码"/>
@@ -39,14 +77,18 @@
 </template>
 
 <script>
+import md5 from 'md5'
 export default {
   layout: 'login',
 
   data() {
   	return {
       form: {
-          email: '11111@qq.com',
-          captcha: '1234'
+        email: '11111@qq.com',
+        captcha: '1234',
+        password: '12345',
+        repassword: '12345',
+        nickname: 'kkkkk',
       },
       rules: {
       	email: [
@@ -70,8 +112,10 @@ export default {
       this.$refs.form.validate( async valid => {
       	if(valid){
           let obj = {
-              email: this.form.email,
+            email: this.form.email,
             captcha:this.form.captcha,
+            password: md5(this.form.password),
+            nickname:this.form.nickname,
           }
           let ret = await this.$http.post('/user/register', obj)
               console.log(ret);

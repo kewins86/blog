@@ -1,6 +1,6 @@
 'use strict';
 
-/** @type Egg.EggPlugin */
+// /** @type Egg.EggPlugin */
 // module.exports = {
 //   // had enabled by egg
 //   // static: {
@@ -9,11 +9,12 @@
 // };
 
 exports.mongoose = {
-	enalbe:true,
-	package:'egg-mongoose'
+  enalbe:true,
+  package:'egg-mongoose'
 }
 
+// {app_root}/config/plugin.js
 exports.jwt = {
-	enable: true,
-	package: "egg-jwt"
+  enable: true,
+  package: "egg-jwt"
 };
