@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e5a2e9f-abd7-4895-b995-65f8e9a0e146" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/app/controller/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/app/model/article.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/components/ArticleItem.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/components/UserDisplay.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/layouts/login.vue" afterDir="false" />
@@ -19,33 +17,7 @@
       <change afterPath="$PROJECT_DIR$/front/static/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/store/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/controller/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/middleware/jwt.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/middleware/jwt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/model/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/model/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/controller/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/controller/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/controller/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/middleware/jwt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/model/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/app/service/tools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/config/config.default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/config/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/test/app/controller/home.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/config/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/config/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pages/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/pages/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/pages/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/model/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/model/article.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +32,7 @@
     <session id="-1921837332">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.12" value="1" />
@@ -111,13 +83,21 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="746580722">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/pages/article/_id.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="1139">
               <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
             </state>
           </provider>
@@ -126,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="238">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
@@ -144,29 +124,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back/app/controller/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="2839">
               <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/back/app/model/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/components/ArticleItem.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#nuxt-link#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -174,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/pages/user/_id.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="612">
               <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
             </state>
           </provider>
@@ -183,7 +151,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back/app/model/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="323">
               <caret line="19" column="18" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
@@ -192,7 +160,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back/app/controller/article.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="85">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
@@ -201,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/back/app/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="425">
               <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
             </state>
           </provider>
@@ -250,7 +218,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/front" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -277,13 +245,13 @@
         <option value="$PROJECT_DIR$/front/layouts/default.vue" />
         <option value="$PROJECT_DIR$/front/components/UserDisplay.vue" />
         <option value="$PROJECT_DIR$/front/pages/index.vue" />
-        <option value="$PROJECT_DIR$/back/app/model/article.js" />
         <option value="$PROJECT_DIR$/front/pages/user/_id.vue" />
         <option value="$PROJECT_DIR$/back/app/model/user.js" />
         <option value="$PROJECT_DIR$/back/app/router.js" />
         <option value="$PROJECT_DIR$/back/app/controller/user.js" />
         <option value="$PROJECT_DIR$/front/pages/article/_id.vue" />
         <option value="$PROJECT_DIR$/front/components/ArticleItem.vue" />
+        <option value="$PROJECT_DIR$/back/app/model/article.js" />
       </list>
     </option>
   </component>
@@ -324,77 +292,7 @@
             <path>
               <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
               <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newItem" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="editor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newItem" type="b2602c69:ProjectViewProjectNode" />
@@ -518,12 +416,13 @@
       <workItem from="1570844256063" duration="6179000" />
       <workItem from="1572936314245" duration="10109000" />
       <workItem from="1573011026241" duration="14480000" />
-      <workItem from="1573088883761" duration="7164000" />
+      <workItem from="1573088883761" duration="8476000" />
+      <workItem from="1573098415172" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109969000" />
+    <option name="totallyTimeSpent" value="111330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,18 +437,18 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490486" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16490486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22836879" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22836879" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3134752" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3134752" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -712,6 +611,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/article/_id.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/components/UserDisplay.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -719,69 +632,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/back/app/controller/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2839">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/pages/user/_id.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="612">
           <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back/app/model/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="323">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back/app/controller/article.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/app/model/article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back/app/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="425">
           <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/app/controller/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/article/_id.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front/components/ArticleItem.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="29">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#nuxt-link#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/app/model/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
