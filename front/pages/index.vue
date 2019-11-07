@@ -1,23 +1,32 @@
 <template>
-  <div class="container">
+  <div class="ssContainer">
     <div>
-      <logo />
+      <ArticleItem
+        v-for="article in articles"
+        :article="article"
+        :key="article._id"
+      >
+      </ArticleItem>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import ArticleItem from '~/components/ArticleItem.vue'
 
 export default {
   components: {
-    Logo
+    ArticleItem
   },
-  async mounted(){
-  	const token = localStorage.getItem('token')
-    if(token) {
-      let ret = await this.$http.get('/user/info')
-      console.log(ret)
+  data () {
+  	return {
+  		articles: []
+    }
+  },
+  async mounted () {
+    const ret = await this.$http.get('/article')
+    if (ret.code == 0){
+        this.articles = ret.data
     }
   },
 }
@@ -32,10 +41,9 @@ export default {
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;

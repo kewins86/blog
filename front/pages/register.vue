@@ -118,7 +118,6 @@ export default {
             nickname:this.form.nickname,
           }
           let ret = await this.$http.post('/user/register', obj)
-              console.log(ret);
           }
       })
     }

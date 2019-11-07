@@ -65,21 +65,20 @@ export default {
   },
   methods: {
     async handleLogin() {
-     let ret= await this.$http.post('/user/login', {
-      	email: this.form.email,
-        password:md5(this.form.password)
+      let ret = await this.$store.dispatch('user/login', {
+          email: this.form.email,
+          password:md5(this.form.password)
       })
       if(ret.code == 0) {
-      	localStorage.setItem('token', ret.data.token)
+        localStorage.setItem('token', ret.data.token)
         this.$notify({
           title: '登录成功',
           type: "success",
         })
         setTimeout(() => {
-        	this.$router.push({path:'/'})
+            this.$router.push({path:'/'})
         },1000)
       }
-      console.log('登录', ret);
     }
   }
 }
