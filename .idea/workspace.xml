@@ -16,8 +16,6 @@
       <change afterPath="$PROJECT_DIR$/front/plugins/axios.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/static/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/store/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/model/article.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/model/article.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,6 +84,7 @@
     <session id="746580722">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -134,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/back/app/model/article.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -337,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.back">
+  <component name="RunManager" selected="npm.front">
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/back/package.json" />
       <command value="run" />
@@ -417,12 +416,12 @@
       <workItem from="1572936314245" duration="10109000" />
       <workItem from="1573011026241" duration="14480000" />
       <workItem from="1573088883761" duration="8476000" />
-      <workItem from="1573098415172" duration="49000" />
+      <workItem from="1573098415172" duration="128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111330000" />
+    <option name="totallyTimeSpent" value="111409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +434,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16490486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -680,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/back/app/model/article.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
