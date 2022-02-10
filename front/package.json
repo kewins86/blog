@@ -31,7 +31,7 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.9.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.16.4",
     "sass-loader": "^8.0.0",
     "ts-jest": "^23.10.4",
